@@ -38,3 +38,15 @@ body {
     background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
 }
+
+.container .card .content {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.container .card .content:hover {
+    transform: translateY(0px);
+    opacity: 1;
+}
